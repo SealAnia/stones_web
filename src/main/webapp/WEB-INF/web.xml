@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<servlet-name>AddDiamondServlet</servlet-name>
+  	<servlet-class>servlet.AddDiamondServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DiamondNecklaceServlet</servlet-name>
+  	<servlet-class>servlet.DiamondNecklaceServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AddAmberServlet</servlet-name>
+  	<servlet-class>servlet.AddAmberServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AmberNecklaceServlet</servlet-name>
+  	<servlet-class>servlet.AmberNecklaceServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>JubilerServlet</servlet-name>
+  	<servlet-class>servlet.JubilerServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>AddDiamondServlet</servlet-name>
+  	<url-pattern>/AddDiamondServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DiamondNecklaceServlet</servlet-name>
+  	<url-pattern>/DiamondNecklaceServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>AddAmberServlet</servlet-name>
+  	<url-pattern>/AddAmberServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>AmberNecklaceServlet</servlet-name>
+  	<url-pattern>/AmberNecklaceServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>JubilerServlet</servlet-name>
+  	<url-pattern>/JubilerServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
